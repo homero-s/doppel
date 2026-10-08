@@ -6,6 +6,6 @@ If we start off by assuming that the attacher does not already have access to co
 - The fact that the email detector is using KL Divergence to detect suspicious emails
 - The constant **C** above which an email is flagged
 
-In order to find the optimal distribution **p** he attacker would have to first find their own baseline distribution **q** presumably from a public corpus of the english language. Start off by having **p=q** then incrementally increase the probablilty of using a specific phrase untill the payoff **s** drops to zero. Then keep using the probability that had the max payoff. 
+In order to find the optimal distribution **p** the attacker would have to first find their own baseline distribution **q** presumably from a public corpus of the english language. Start off by having **p=q** then incrementally increase the probablilty of using a specific phrase untill the payoff **s** drops to zero. Then keep using the probability that had the max payoff. 
 
 In other words an attacker would have to empirically determine the optimal distribution because they are working blindly. 
